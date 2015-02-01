@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<form>
+<form
+	addrulepath="/administrator/components/com_helloworld/models/rules"
+>
 	<fieldset>
 		<field
-			name="id"
-			type="hidden"
-		/>
+				name="id"
+				type="hidden"
+				/>
 		<field
-			name="greeting"
-			type="text"
-			label="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_LABEL"
-			description="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_DESC"
-			size="40"
-			class="inputbox"
-			default=""
-		/>
+				name="greeting"
+				type="text"
+                                label="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_LABEL"
+                                description="COM_HELLOWORLD_HELLOWORLD_FIELD_GREETING_DESC"
+				size="40"
+                                class="inputbox validate-greeting"
+                                validate="greeting"
+                                required="true"
+				default=""
+				/>
 	</fieldset>
 </form>
