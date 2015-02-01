@@ -62,5 +62,9 @@ class HelloWorldViewHelloWorlds extends JViewLegacy
 	{
 		$document = JFactory::getDocument();
 		$document->setTitle(JText::_('COM_HELLOWORLD_ADMINISTRATION'));
+<<<<<<< HEAD
 	}
 }
+=======
+	}
+>>>>>>> 59ed6539a597c1dac42b654558e6d3a739d3a5ac
