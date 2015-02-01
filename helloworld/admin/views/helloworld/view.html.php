@@ -11,10 +11,15 @@ jimport('joomla.application.component.view');
 class HelloWorldViewHelloWorld extends JViewLegacy
 {
 	/**
-	 * display method of Hello view
-	 * @param   string  $tpl  The name of the template file to parse; automatically searches through the template paths.
+	 * View form
 	 *
-	 * @return  mixed  A string if successful, otherwise a JError object.
+	 * @var		form
+	 */
+	protected $form = null;
+ 
+	/**
+	 * display method of Hello view
+	 * @return void
 	 */
 	public function display($tpl = null) 
 	{
@@ -37,20 +42,34 @@ class HelloWorldViewHelloWorld extends JViewLegacy
  
 		// Display the template
 		parent::display($tpl);
+ 
+		// Set the document
+		$this->setDocument();
 	}
  
 	/**
 	 * Setting the toolbar
 	 */
 	protected function addToolBar() 
-	{
+	{		
 		$input = JFactory::getApplication()->input;
 		$input->set('hidemainmenu', true);
 		$isNew = ($this->item->id == 0);
 		JToolBarHelper::title($isNew ? JText::_('COM_HELLOWORLD_MANAGER_HELLOWORLD_NEW')
-		                             : JText::_('COM_HELLOWORLD_MANAGER_HELLOWORLD_EDIT'));
+		                             : JText::_('COM_HELLOWORLD_MANAGER_HELLOWORLD_EDIT'), 'helloworld');
 		JToolBarHelper::save('helloworld.save');
-		JToolBarHelper::cancel('helloworld.cancel', $isNew ? 'JTOOLBAR_CANCEL'
-		                                                   : 'JTOOLBAR_CLOSE');
+		JToolBarHelper::cancel('helloworld.cancel', $isNew ? 'JTOOLBAR_CANCEL' : 'JTOOLBAR_CLOSE');
+	}
+	/**
+	 * Method to set up the document properties
+	 *
+	 * @return void
+	 */
+	protected function setDocument() 
+	{
+		$isNew = ($this->item->id < 1);
+		$document = JFactory::getDocument();
+		$document->setTitle($isNew ? JText::_('COM_HELLOWORLD_HELLOWORLD_CREATING')
+		                           : JText::_('COM_HELLOWORLD_HELLOWORLD_EDITING'));
 	}
 }
