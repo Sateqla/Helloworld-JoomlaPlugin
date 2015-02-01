@@ -20,18 +20,10 @@
 	"buffers":
 	[
 		{
-			"file": "helloworld/helloworld.xml",
+			"file": "helloworld/site/language/en-GB/en-GB.com_helloworld.ini",
 			"settings":
 			{
-				"buffer_size": 2310,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "helloworld/site/views/fluffy/view.html.php",
-			"settings":
-			{
-				"buffer_size": 971,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -68,12 +60,33 @@
 	},
 	"file_history":
 	[
-		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/helloworld.php",
-		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/controller.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/helloworld.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/controller.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/models/helloworlds.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/view.html.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/tmpl/default.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/tmpl/default_head.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/tmpl/default_body.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/tmpl/default_foot.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/helloworld.xml",
-		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/helloworld/tmpl/default.php",
-		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/fluffy/view.html.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/views/helloworlds/tmpl/default_footer.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/helloworld.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/sql/uninstall.mysql.utf8.sql",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/sql/updates/mysql/0.0.6.sql",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/sql/install.mysql.utf8.sql",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/models/helloworld.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/tables/helloworld.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/helloworld/tmpl/default.xml",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/models/fields/helloworld.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/helloworld/view.html.php",
+		"/Users/hsateila/Documents/WWW-projektit/Sivustot/joomla-dev/components/com_helloworld/models/helloworld.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/fluffy/view.html.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/piirit.html",
+		"/Users/hsateila/Dropbox/vesikoirien-sahkopostit.txt",
+		"/Users/hsateila/Dropbox/bandit.txt",
+		"/Users/hsateila/Desktop/bandit.txt",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/controller.php",
+		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/site/views/helloworld/tmpl/default.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld.xml",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/site/helloworld.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/admin/helloworld.php",
@@ -123,7 +136,6 @@
 		"/Users/hsateila/Desktop/sportjr 2/logs/error.php",
 		"/Users/hsateila/Desktop/kasvattajat-uusi.html",
 		"/Users/hsateila/Desktop/kasvattajalistaus.html",
-		"/Users/hsateila/Dropbox/vesikoirien-sahkopostit.txt",
 		"/Users/hsateila/Library/Caches/com.binarynights.ForkLift2/#4/gantry-custom.css",
 		"/Users/hsateila/Library/Caches/com.binarynights.ForkLift2/#2/gantry-custom.css",
 		"/Users/hsateila/Library/Caches/com.binarynights.ForkLift2/#1/gantry-custom-brown.css",
@@ -179,6 +191,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#",
 			"#flatcal_minical .flatcal_todaycell a.flatcal_busylink",
 			"todaycell",
 			"todaycell¨",
@@ -323,15 +336,15 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "helloworld/helloworld.xml",
+					"file": "helloworld/site/language/en-GB/en-GB.com_helloworld.ini",
 					"settings":
 					{
-						"buffer_size": 2310,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -344,37 +357,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 8,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "helloworld/site/views/fluffy/view.html.php",
-					"settings":
-					{
-						"buffer_size": 971,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								474,
-								474
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 8,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
