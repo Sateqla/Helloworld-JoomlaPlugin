@@ -13,25 +13,30 @@
 			],
 			[
 				"html",
-				"html	XHTML 1.0 Transitional Template"
+				"html\tXHTML 1.0 Transitional Template"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "helloworld/site/language/en-GB/en-GB.com_helloworld.ini",
+			"file": "helloworld/helloworld.xml",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 3601,
 				"line_ending": "Unix"
 			}
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 287.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -47,7 +52,12 @@
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 125.0,
+		"history":
+		[
+			"view.encoding()",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
 	},
 	"distraction_free":
 	{
@@ -58,8 +68,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/hsateila/Documents/GitHub/Helloworld-plugin/helloworld"
+	],
 	"file_history":
 	[
+		"/Users/hsateila/Documents/GitHub/Helloworld-plugin/helloworld/site/language/en-GB/en-GB.com_helloworld.ini",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/helloworld.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/controller.php",
 		"/Users/hsateila/Documents/WWW-projektit/Vesikoirat.fi/Helloworld-plugin/helloworld/admin/models/helloworlds.php",
@@ -341,10 +356,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "helloworld/site/language/en-GB/en-GB.com_helloworld.ini",
+					"file": "helloworld/helloworld.xml",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 3601,
 						"regions":
 						{
 						},
@@ -357,12 +373,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -399,6 +418,12 @@
 		]
 	},
 	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "helloworld.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -407,6 +432,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -415,15 +441,32 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
 	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 150.0,
-	"status_bar_visible": true
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
